@@ -1,0 +1,105 @@
+body {
+  background-color: white;
+}
+
+.reference{
+  width:100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  opacity: 100%;
+}
+
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6vw;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.full_page{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.content{
+  width: 63vw;
+  height: 100%;
+  position: relative;
+  border-style: solid;
+  border-color: red;
+  left: 35vw;
+  padding: 10px;
+}
+
+.content_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 6vw;
+  border-style: solid;
+  border-color: green;
+  position: relative;
+}
+
+.content_text{
+  position: absolute;
+  left: 3.3vw;
+  top: 2vw;
+}
+
+.navbar{
+  float: left;
+  width: 25vw;
+  height: 100%;
+  position: fixed;
+  align-items:center;
+  background-color: white;
+  border-style: solid;
+  opacity: 100%;
+  text-align: left;
+  text-indent: 3vw;
+}
+
+.nav_name{
+  padding-top: 3vw;
+}
+
+.nav_works{
+  padding-top: 3.7vw;
+  padding-bottom: 0;
+}
+
+.nav_sub{
+  padding-top: .1vw;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:gray;
+}
