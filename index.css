@@ -94,3 +94,12 @@ a:hover{
   margin-top: 30px;
   margin-right: 90px;
 }
+
+video{
+ width: 85%;
+ height: auto;
+ border: solid;
+ border-width: 3px;
+ border-color: black;
+ margin-bottom: 1%;
+}
