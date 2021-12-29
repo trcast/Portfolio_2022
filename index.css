@@ -18,6 +18,7 @@ h1{
   color: black;
   margin: 0;
   padding: 0;
+  cursor: default;
 }
 
 h2{
@@ -91,8 +92,6 @@ video{
  width: 85%;
  height: auto;
  border: solid;
- border-width: 3px;
- border-color: black;
  margin-bottom: 1%;
  margin-left: 8%;
 }
@@ -101,8 +100,6 @@ img{
   width: 85%;
   height: auto;
   border: solid;
-  border-width: 3px;
-  border-color: black;
   margin-bottom: 1%;
   margin-left: 8%;
 }
