@@ -60,3 +60,52 @@ li{
   display: block;
   margin-left: 3vw;
 }
+
+.work_nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+  width: 57vw;
+  height: 2.1vw;
+  align-content: flex-start;
+  padding-top: 2vw;
+  border-bottom: solid 3px black;
+}
+
+.nts_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: yellow;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  width: 57vw;
+  height: 50vw;
+  align-content: flex-start;
+}
+
+.nts_inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: blue;
+  margin-top: 2vw;
+  width: 57vw;
+  height: auto;
+}
+
+.nts_square{
+  display: block;
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+.nts_launch{
+  display: block;
+  width: 500px;
+  height: 800px;
+  background-color: pink;
+}
