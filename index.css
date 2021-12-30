@@ -36,6 +36,8 @@ a:hover{
 
 
 .full_page{
+  display: flex;
+  flex-direction: column;
   margin-left: 39vw;
 }
 
@@ -59,4 +61,14 @@ ul{
 li{
   display: block;
   margin-left: 3vw;
+}
+
+video{
+  border: solid 2px black;
+  margin: .5vw;
+}
+
+img{
+  border: solid 2px black;
+  margin: .5vw;
 }
