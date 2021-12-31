@@ -73,7 +73,7 @@ li{
   border-bottom: solid 3px black;
 }
 
-.nts_page{
+.m_page{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,9 +84,9 @@ li{
   /* background-color: yellow; */
 }
 
-.nts_inner{
+.m_inner{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 57vw;
@@ -94,19 +94,28 @@ li{
   /* background-color: blue; */
 }
 
-.nts_square{
+.m_intro{
   display: block;
-  width: 28vw;
+  width: 57vw;
   height: auto;
-  margin-bottom: 1vw;
+  margin-bottom: .5vw;
   /* background-color: green; */
 }
 
-.nts_launch{
-  display: block;
-  width: 26vw;
+.m_sub{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 57vw;
   height:auto;
   /* background-color: pink; */
+}
+
+.sub_video{
+  display: block;
+  width: 28vw;
+  height: auto;
+  margin-bottom: .5vw;
 }
 
 video{
