@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  /*background: url(a_web_header.jpg) no-repeat center center fixed;*/
+}
+
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+h2{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6vw;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: black;
+  cusor: default;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color:gray;
+}
+
+
+.full_page{
+  margin-left: 39vw;
+}
+
+.nav_bar{
+  position: fixed;
+  width: 38vw;
+  height: 100vw;
+  margin-top: 2vw;
+}
+
+.nav_items{
+  margin-bottom: 3.5vw;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  display: block;
+  margin-left: 3vw;
+}
+
+.work_nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 57vw;
+  height: 2.1vw;
+  align-content: flex-start;
+  padding-top: 2vw;
+  border-bottom: solid 3px black;
+}
+
+.nts_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1vw;
+  width: 57vw;
+  height: 50vw;
+  align-content: flex-start;
+  /* background-color: yellow; */
+}
+
+.nts_inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 57vw;
+  height: auto;
+  /* background-color: blue; */
+}
+
+.nts_square{
+  display: block;
+  width: 28vw;
+  height: auto;
+  margin-bottom: 1vw;
+  /* background-color: green; */
+}
+
+.nts_launch{
+  display: block;
+  width: 26vw;
+  height:auto;
+  /* background-color: pink; */
+}
+
+video{
+  border: 3px solid black;
+}

@@ -65,7 +65,7 @@ li{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: red;
+  /* background-color: red; */
   width: 57vw;
   height: 2.1vw;
   align-content: flex-start;
@@ -77,35 +77,38 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: yellow;
-  margin-top: 2vw;
-  padding-top: 2vw;
+  padding-top: 1vw;
   width: 57vw;
   height: 50vw;
   align-content: flex-start;
+  /* background-color: yellow; */
 }
 
 .nts_inner{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: blue;
-  margin-top: 2vw;
+  justify-content: space-around;
   width: 57vw;
   height: auto;
+  /* background-color: blue; */
 }
 
 .nts_square{
   display: block;
-  width: 500px;
-  height: 500px;
-  background-color: green;
+  width: 28vw;
+  height: auto;
+  margin-bottom: 1vw;
+  /* background-color: green; */
 }
 
 .nts_launch{
   display: block;
-  width: 500px;
-  height: 800px;
-  background-color: pink;
+  width: 26vw;
+  height:auto;
+  /* background-color: pink; */
+}
+
+video{
+  border: 3px solid black;
 }
