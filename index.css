@@ -64,11 +64,11 @@ li{
 }
 
 video{
-  border: solid 3px black;
+  border: solid .2vw black;
   margin: .5vw;
 }
 
 img{
-  border: solid 3px black;
+  border: solid .2vw black;
   margin: .5vw;
 }
